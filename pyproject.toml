@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "python-basic-template"
+version = "0.1.0"
+description = "This is a basic template repository for any python Project."
+authors = ["Choukha Ram"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.19.4"
+pre-commit = "^2.20.0"
+isort = "^5.11.4"
+black = "^22.12.0"
+flake8 = "^6.0.0"
+pylint = "^2.15.9"
+pytest = "^7.2.0"
+safety = "^2.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
