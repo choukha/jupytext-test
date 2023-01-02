@@ -1,13 +1,15 @@
 [tool.poetry]
-name = "python-basic-template"
+name = "jupytext-test"
 version = "0.1.0"
-description = "This is a basic template repository for any python Project."
+description = "This is a repository to test the Jupytext library."
 authors = ["Choukha Ram"]
 readme = "README.md"
 packages = []
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pandas = "^1.5.2"
+jupytext = "^1.14.4"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.19.4"
